@@ -1,0 +1,375 @@
+@media only screen and (min-width:1020px) {
+    .main {
+        width:1440px;
+        height:600px;
+        margin:90px auto;
+        background:hsl(217, 54%, 11%);
+        position:relative;
+    }
+
+    .card{
+        height:420px;
+        width:248px;
+        background:hsl(216, 50%, 16%);
+        border-radius:10px;
+        margin:90px 0 90px 620px;
+        position:absolute;
+    }
+
+    .image-container {
+        height:210px;
+        width:210px;
+        border-radius:6px;
+        margin:18px auto 0;
+        position:relative;
+    }
+
+    .equilibrium {
+        height:210px;
+        width:210px;
+        border-radius:6px;
+    }
+
+    .icon-div{
+        height:210px;
+        width:210px;
+        position:absolute;
+        top:0px;
+        background:url('images/icon-view.svg') no-repeat, rgba(0, 255, 247, 0.5);
+        background-position:center;
+        opacity:0;
+        transition : opacity 0.25s;
+    }
+
+    .icon-div:hover{
+        opacity:1;
+    }
+
+
+
+    .text {
+        height:100px;
+        width:210px;
+        margin:2px auto 0;
+    }
+
+    .name {
+        font-family: 'Outfit', sans-serif;
+        font-weight:600;
+        font-size:15px;
+        text-align:left;
+        color:white;
+        padding:0;
+    }
+
+    .desc {
+        font-family: 'Outfit', sans-serif;
+        font-weight:300;
+        font-size:13px;
+        text-align:left:
+        padding:0;
+        color:hsl(215, 51%, 70%);
+    }
+
+    .eth{
+        height:20px;
+        width:100px;
+        margin:6px 0 0 0;
+        position:absolute;
+    }
+
+    .eth-container {
+        height:20px;
+        width:100px;
+        display:inline;
+
+    }
+
+    .eth-icon {
+        display:inline;
+        height:13px;
+        padding:0 4px 0 0;
+    }
+
+    .eth-text {
+        font-family: 'Outfit', sans-serif;
+        font-weight:600;
+        font-size:11px;
+        color:hsl(178, 100%, 50%);
+        text-align:left;
+        display:inline;
+        position:absolute;
+
+    }
+
+    .time {
+        height:20px;
+        width:70px;
+        margin:0 20px 0 0;
+        position:absolute;
+        bottom:0px;
+        right:0;
+    }
+
+    .time-container {
+        display:inline;
+        height:20px;
+        width:50px;
+        margin:0;
+    }
+
+    .clock-icon {
+        display:inline;
+        height:13px;
+        padding:0 4px 0 0;
+        position:absolute;
+        bottom:77px;
+    }
+
+    .time-text {
+        font-family: 'Outfit', sans-serif;
+        font-weight:500;
+        font-size:11px;
+        text-align:left:
+        padding:0;
+        color:hsl(215, 51%, 70%);
+        display:inline;
+        position:absolute;
+        bottom:77px;
+        right:5px;
+    }
+
+    hr {
+        width:205px;
+        margin: 15px 21px 0px;
+        border-top: 1px solid hsl(215, 32%, 27%);
+        border-bottom:0;
+        border-right:0;
+        border-left:0;
+        height:1px;
+    }
+    .my-photo {
+        height:24px;
+        width:24px;
+        border-radius:100px;
+        position:absolute;
+        left:22px;
+        bottom:26px;
+    }
+
+    .created-by {
+        font-family: 'Outfit', sans-serif;
+        font-weight:500;
+        font-size:11px;
+        text-align:left;
+        color:hsl(215, 51%, 70%);
+        position:absolute;
+        right:58px;
+        bottom:20px;
+    }
+
+    .dawid {
+        color:white;
+    }
+
+    .name:hover {
+        color:hsl(178, 100%, 50%);
+        cursor:pointer;
+    }
+
+    .dawid:hover{
+        color:hsl(178, 100%, 50%);
+        cursor:pointer;
+    }
+}
+
+@media only screen and (max-width:480px){
+    body{
+        background:hsl(217, 54%, 11%);
+    }
+
+    .main {
+        width:420px;
+        height:600px;
+        margin:0;
+        background:hsl(217, 54%, 11%);
+        position:relative;
+    }
+
+    .card{
+        height:600px;
+        width:375px;
+        background:hsl(216, 50%, 16%);
+        border-radius:10px;
+        margin:auto;
+        position:absolute;
+    }
+
+    .image-container {
+        height:320px;
+        width:320px;
+        border-radius:6px;
+        margin:22px auto 0;
+        position:relative;
+    }
+
+    .equilibrium {
+        height:320px;
+        width:320px;
+        border-radius:6px;
+    }
+
+    .icon-div{
+        height:320px;
+        width:320px;
+        position:absolute;
+        top:0px;
+        background:url('images/icon-view.svg') no-repeat, rgba(0, 255, 247, 0.5);
+        background-position:center;
+        opacity:0;
+        transition : opacity 0.25s;
+    }
+
+    .icon-div:hover{
+        opacity:1;
+    }
+
+
+
+    .text {
+        height:150px;
+        width:320px;
+        margin:2px auto 0;
+    }
+
+    .name {
+        font-family: 'Outfit', sans-serif;
+        font-weight:600;
+        font-size:24px;
+        text-align:left;
+        color:white;
+        padding:0;
+    }
+
+    .desc {
+        font-family: 'Outfit', sans-serif;
+        font-weight:320;
+        font-size:19px;
+        text-align:left:
+        padding:0;
+        color:hsl(215, 51%, 70%);
+    }
+
+    .eth{
+        height:40px;
+        width:150px;
+        margin:6px 0 0 0;
+        position:absolute;
+    }
+
+    .eth-container {
+        height:40px;
+        width:150px;
+        display:inline;
+
+    }
+
+    .eth-icon {
+        display:inline;
+        height:19px;
+        padding:0 4px 0 0;
+    }
+
+    .eth-text {
+        font-family: 'Outfit', sans-serif;
+        font-weight:600;
+        font-size:17px;
+        color:hsl(178, 100%, 50%);
+        text-align:left;
+        display:inline;
+        position:absolute;
+        bottom:19px;
+        left:18px;
+    }
+
+    .time {
+        height:25px;
+        width:120px;
+        margin:0 20px 0 0;
+        position:absolute;
+        bottom:0px;
+        right:0;
+    }
+
+    .time-container {
+        display:inline;
+        height:25px;
+        width:120px;
+        margin:0;
+    }
+
+    .clock-icon {
+        display:inline;
+        height:19px;
+        padding:0 4px 0 0;
+        position:absolute;
+        bottom:87px;
+        right:91px;
+    }
+
+    .time-text {
+        font-family: 'Outfit', sans-serif;
+        font-weight:500;
+        font-size:16px;
+        text-align:left:
+        padding:0;
+        color:hsl(215, 51%, 70%);
+        display:inline;
+        position:absolute;
+        bottom:86px;
+        right:15px;
+    }
+
+    hr {
+        width:320px;
+        margin: 15px 21px 0px;
+        border-top: 1px solid hsl(215, 32%, 27%);
+        border-bottom:0;
+        border-right:0;
+        border-left:0;
+        height:1px;
+    }
+    .my-photo {
+        height:36px;
+        width:36px;
+        border-radius:100px;
+        position:absolute;
+        left:25px;
+        bottom:19px;
+    }
+
+    .created-by {
+        font-family: 'Outfit', sans-serif;
+        font-weight:500;
+        font-size:17px;
+        text-align:left;
+        color:hsl(215, 51%, 70%);
+        position:absolute;
+        left:75px;
+        bottom:9px;
+    }
+
+    .dawid {
+        color:white;
+    }
+
+    .name:hover {
+        color:hsl(178, 100%, 50%);
+        cursor:pointer;
+    }
+
+    .dawid:hover{
+        color:hsl(178, 100%, 50%);
+        cursor:pointer;
+    }
+}
